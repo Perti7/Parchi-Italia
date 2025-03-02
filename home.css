@@ -52,6 +52,17 @@ nav ul li a {
 
 .hero p {
     font-size: 20px;
+color: #2d553c;
+}
+
+.sottotitolo {
+    font-size: 20px;
+color: #2d553c;
+display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 button {

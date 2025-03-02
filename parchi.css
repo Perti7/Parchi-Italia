@@ -36,15 +36,15 @@ nav ul li a {
 .hero {
     background: url('paradiso1.jpg') no-repeat center/cover;
     text-align: center;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 80px 20px;
     height: 70px; /* Altezza consigliata per mantenere il layout proporzionato */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center;
-    color: white;
+   
+   
     
 }
 
@@ -62,14 +62,40 @@ nav ul li a {
     
 }
 
+.hero3 {
+    background: url('Mont_Pollino.jpg') no-repeat center/cover;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 80px 20px;
+    height: 70px; /* Altezza consigliata per mantenere il layout proporzionato */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.hero4 {
+    background: url('dolomitibg.jpg') no-repeat center/cover;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 80px 20px;
+    height: 70px; /* Altezza consigliata per mantenere il layout proporzionato */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+
 .hero h1 {
     font-size: 36px;
     margin: 0;
 }
 
-.hero p {
-    font-size: 20px;
-}
+
 
 .content {
     padding: 40px;
@@ -80,6 +106,7 @@ nav ul li a {
 h2 {
     color: #2d553c;
 }
+
 
 .text-image {
     display: flex;

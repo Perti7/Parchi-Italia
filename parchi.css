@@ -101,6 +101,19 @@ nav ul li a {
     
     
 }
+.hero6 {
+    background: url('trekking1.jpg') no-repeat center/cover;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 80px 20px;
+    height: 70px; /* Altezza consigliata per mantenere il layout proporzionato */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
 
 
 .hero h1 {

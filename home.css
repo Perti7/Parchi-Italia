@@ -1,0 +1,195 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #2d553c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 24px;
+    color: white;
+    
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: url('bg_home.png') no-repeat center/cover;
+    height: 400px; /* Altezza consigliata per mantenere il layout proporzionato */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+.hero h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+button {
+    background-color: #2d553c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #1e3d2a;
+}
+
+.parks {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 40px;
+}
+
+.park img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.park h3 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px;
+    background-color: #46664a;
+    color: white;
+}
+
+.info div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    color: #333;
+}
+
+.info img {
+    width: 150px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #2d553c;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+.logo img {
+    width: 50px;
+    height: auto;
+}
+
+.hero {
+    background: url('bg_home.png') no-repeat center/cover;
+    height: 200px;
+}
+
+.park a {
+    display: block;
+    text-decoration: none;
+}
+
+.park img {
+    width: 100%;
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.park img:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.button {
+    display: inline-block;
+    background-color: #2d553c;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+    background-color: #1e3d2a;
+}
+
+/* Stile generale per i pulsanti */
+.button {
+    display: inline-block;
+    background-color: #2d553c;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Effetto hover */
+.button:hover {
+    background-color: #1e3d2a;
+}
+
+/* Per centrare il bottone nella hero */
+.hero .buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Per mantenere il bottone "Esplora" nella stessa posizione */
+.info .buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
